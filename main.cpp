@@ -83,6 +83,6 @@ void process_file(const std::string& filename) {
 
 // dostosowanie ścieżki do pliku CSV  
 int main() {
-    process_file("C:\\Users\\olkam\\Desktop\\gpu-cuda\\gpu-miniprojekt\\dane_testowe.csv");
+    process_file("C:\\Users\\olkam\\Desktop\\detekcja-anomalii-cuda\\detekcja-anomalii-cuda\\dane_testowe.csv");
     return 0;
 }
