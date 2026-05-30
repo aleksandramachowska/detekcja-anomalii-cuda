@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\olkam\Desktop\detekcja-anomalii-cuda\detekcja-anomalii-cuda\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olkam\Desktop\detekcja-anomalii-cuda\detekcja-anomalii-cuda\cpu_processing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\olkam\Desktop\detekcja-anomalii-cuda\detekcja-anomalii-cuda\cpu_processing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\olkam\Desktop\detekcja-anomalii-cuda\detekcja-anomalii-cuda\gpu_processing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\gpu_processing.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olkam\Desktop\detekcja-anomalii-cuda\detekcja-anomalii-cuda\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7B5F8BA5-08B8-3E6F-A20A-7B14FEA03124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FA2C54AE-A862-388B-8E37-A60F58CD7E41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
